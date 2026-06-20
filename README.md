@@ -1,6 +1,6 @@
-# Stanford Machine Learning (Coursera) — Stanford University
-### Course Instructor: Andrew Ng
-#### Language: Octave / MATLAB
+## Stanford Machine Learning (Coursera) — Stanford University
+**Course Instructor:** Andrew Ng  
+**Language:** Octave / MATLAB
 
 Welcome to this repository containing the complete, verified solutions for the **Stanford Machine Learning Course** taught by **Andrew Ng** on Coursera. This course provides a comprehensive introduction to machine learning, datamining, and statistical pattern recognition.
 
@@ -8,7 +8,7 @@ This repository serves as a showcase of core machine learning algorithms impleme
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The project is organized into 8 programming exercises, each targeting specific machine learning algorithms and real-world applications:
 
@@ -29,7 +29,7 @@ Machine-Learning-master/
 
 ---
 
-## 🧠 Key Concepts & Skills Learned
+## Key Concepts & Skills Learned
 
 Through this project, the following theoretical and practical machine learning concepts were mastered:
 
@@ -53,9 +53,9 @@ Through this project, the following theoretical and practical machine learning c
 
 ---
 
-## 🛠️ Detailed Exercise & Project Breakdown
+## Detailed Exercise & Project Breakdown
 
-### 📊 Exercise 1: Linear Regression
+### Exercise 1: Linear Regression
 *   **Real-world Problems Solved:**
     1.  **Food Truck Profit Prediction:** Predict profits for a franchise based on city population (univariate linear regression).
     2.  **Housing Price Prediction:** Predict house sale prices based on square footage and number of bedrooms (multivariate linear regression).
@@ -67,7 +67,7 @@ Through this project, the following theoretical and practical machine learning c
     *   [featureNormalize.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex1/featureNormalize.m) - Normalized features to ensure equal convergence scale.
     *   [normalEqn.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex1/normalEqn.m) - Direct closed-form analytical solution of $\theta$.
 
-### 📈 Exercise 2: Logistic Regression & Regularization
+### Exercise 2: Logistic Regression & Regularization
 *   **Real-world Problems Solved:**
     1.  **University Admission Predictor:** Estimate a student's admission probability based on two exam scores (linear decision boundary).
     2.  **Microchip Quality Assurance:** Classify fabricated microchips as pass or fail based on QA test results (non-linear circular decision boundary).
@@ -77,7 +77,7 @@ Through this project, the following theoretical and practical machine learning c
     *   [predict.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex2/predict.m) - Predict class labels (0 or 1) based on a threshold.
     *   [mapFeature.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex2/mapFeature.m) - Mapped features into polynomial terms up to the 6th degree to fit non-linear boundaries.
 
-### 🔢 Exercise 3: Multi-class Classification & Neural Network Representation
+### Exercise 3: Multi-class Classification & Neural Network Representation
 *   **Real-world Problems Solved:**
     *   **Handwritten Digit Recognition:** Classify image scans of digits (0 to 9) using two different models: (a) vectorized One-vs-All logistic regression, and (b) a pre-trained 3-layer Feedforward Neural Network.
 *   **Core Implementations:**
@@ -86,7 +86,7 @@ Through this project, the following theoretical and practical machine learning c
     *   [predictOneVsAll.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex3/predictOneVsAll.m) - Predicted class labels using the trained One-vs-All model.
     *   [predict.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex3/predict.m) - Forward propagation algorithm for neural network classification.
 
-### 🕸️ Exercise 4: Neural Network Learning
+### Exercise 4: Neural Network Learning
 *   **Real-world Problems Solved:**
     *   **Neural Network Training from Scratch:** Train a neural network to recognize handwritten digits by writing the complete backpropagation algorithm.
 *   **Core Implementations:**
@@ -95,7 +95,7 @@ Through this project, the following theoretical and practical machine learning c
     *   [nnCostFunction.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex4/nnCostFunction.m) - Implemented neural network cost function, forward propagation to compute activations, backpropagation to compute gradients, and parameter regularization.
     *   [checkNNGradients.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex4/checkNNGradients.m) & [computeNumericalGradient.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex4/computeNumericalGradient.m) - Gradient checking using numerical finite differences to verify correctness of the analytical backpropagation gradients.
 
-### 📐 Exercise 5: Regularized Linear Regression & Bias vs. Variance
+### Exercise 5: Regularized Linear Regression & Bias vs. Variance
 *   **Real-world Problems Solved:**
     *   **Water Dam Level Forecasting:** Diagnose bias/variance issues when training regularized linear regression to predict the volume of water flowing out of a dam based on the change in the water level.
 *   **Core Implementations:**
@@ -104,7 +104,7 @@ Through this project, the following theoretical and practical machine learning c
     *   [polyFeatures.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex5/polyFeatures.m) - Mapped 1D inputs to higher-degree polynomials.
     *   [validationCurve.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex5/validationCurve.m) - Evaluated model performance across a range of regularization parameters ($\lambda$) on the cross-validation set to choose the best hyperparameter.
 
-### 🛡️ Exercise 6: Support Vector Machines (SVMs) & Spam Classifier
+### Exercise 6: Support Vector Machines (SVMs) & Spam Classifier
 *   **Real-world Problems Solved:**
     1.  **Gaussian SVM Boundary Plotter:** Solve highly complex non-linear boundaries using an SVM with a Radial Basis Function (RBF) kernel.
     2.  **Email Spam Filter:** Preprocess raw emails and train an SVM to classify them as spam or non-spam.
@@ -114,7 +114,7 @@ Through this project, the following theoretical and practical machine learning c
     *   [processEmail.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex6/processEmail.m) - Preprocesses email body text: lowercasing, HTML tag stripping, normalization of numbers/URLs/email addresses/dollar signs, word stemming using Porter Stemmer, and mapping to a vocabulary list.
     *   [emailFeatures.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex6/emailFeatures.m) - Converts preprocessed email indices into a binary feature vector indicating presence or absence of words in the vocabulary.
 
-### 🖼️ Exercise 7: K-Means Clustering & Principal Component Analysis (PCA)
+### Exercise 7: K-Means Clustering & Principal Component Analysis (PCA)
 *   **Real-world Problems Solved:**
     1.  **Image Compression:** Compress the colors of a 24-bit RGB image down to 16 colors by running K-Means clustering on the pixel RGB channels (color quantization).
     2.  **Eigenface Visualization & Compression:** Run PCA on a dataset of human face images, find the primary facial characteristics (eigenfaces), and compress/reconstruct the faces using a lower-dimensional projection.
@@ -125,7 +125,7 @@ Through this project, the following theoretical and practical machine learning c
     *   [pca.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex7/pca.m) - Computes covariance matrix and runs Singular Value Decomposition (SVD) to find principal components.
     *   [projectData.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex7/projectData.m) & [recoverData.m](file:///c:/Users/Malvern/Desktop/Malvern/2026%20Pojects/Softwares/Machine-Learning-master/Machine-Learning-master/ex7/recoverData.m) - Projected data to lower dimension and reconstructed it back.
 
-### 🚨 Exercise 8: Anomaly Detection & Recommender Systems
+### Exercise 8: Anomaly Detection & Recommender Systems
 *   **Real-world Problems Solved:**
     1.  **Server Health Monitor (Anomaly Detection):** Detect abnormal server behavior (throughput, latency) using a Gaussian distribution model to identify anomalies.
     2.  **Movie Recommendation Engine:** Predict ratings for unrated movies for a specific user and recommend the highest-scoring movies using collaborative filtering.
@@ -136,7 +136,7 @@ Through this project, the following theoretical and practical machine learning c
 
 ---
 
-## 🚀 Execution Instructions
+## Execution Instructions
 
 ### Prerequisites
 You need to install either **GNU Octave** (recommended and free) or **MATLAB**.
@@ -162,7 +162,7 @@ submit
 
 ---
 
-## 📈 Learning Outcomes & Reflection
+## Learning Outcomes & Reflection
 
 This course represents a significant milestone in engineering capabilities:
 1.  **Mathematical Fluency:** Translating complex matrix equations, cost functions, gradients, and regularization factors directly into clean, vectorized, multi-dimensional array operations in Octave/MATLAB.
